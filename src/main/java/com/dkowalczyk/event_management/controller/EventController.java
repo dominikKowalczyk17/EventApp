@@ -6,6 +6,7 @@ import com.dkowalczyk.event_management.repository.EventRepository; // Importuje 
 import org.springframework.beans.factory.annotation.Autowired; // Importuje adnotację @Autowired
 import org.springframework.http.HttpStatus; // Importuje klasę HttpStatus
 import org.springframework.http.ResponseEntity; // Importuje klasę ResponseEntity
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*; // Importuje adnotacje Spring MVC
 
 import java.util.List; // Importuje listy z biblioteki Java

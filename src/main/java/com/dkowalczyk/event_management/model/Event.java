@@ -13,6 +13,7 @@ public class Event {
     @Id // Oznacza pole jako klucz główny
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Określa strategię generowania wartości klucza głównego
     private Long id; // Deklaruje pole id jako klucz główny
+    @Column(name = "event_name")
     private String eventName; // Deklaruje pole na nazwę wydarzenia
     private String description; // Deklaruje pole na opis wydarzenia
     private String location; // Deklaruje pole na lokalizację wydarzenia
